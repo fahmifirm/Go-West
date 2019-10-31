@@ -1,12 +1,11 @@
-.container {
+.image {
     position: relative;
-    text-align: center;
-    color: white;
+    width: 50%;
   }
 
-  .centered {
+h4 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 200px;
+    left: 0;
+    width: 100%;
   }
