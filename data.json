@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "image": "bg1.jpg",
+      "name": "Road"
+    },
+    {
+      "id": 2,
+      "image": "bg2.jpg",
+      "name": "Mountain"
+    },
+    {
+      "id": 3,
+      "image": "bg3.jpg",
+      "name": "Urban"
+    },
+    {
+      "id": 4,
+      "image": "bg4.jpg",
+      "name": "Junior"
+    }
+  ]
+}
