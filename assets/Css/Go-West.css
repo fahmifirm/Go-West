@@ -1,11 +1,46 @@
-.image {
+.box{
+    width: 300px;
+    height: 312px;
     position: relative;
-    width: 50%;
-  }
-
-h4 {
+   
+}
+.box img{
+    width: 250px;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+h3{
     position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100%;
-  }
+    color: white;
+}
+.tengah{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    transform: translate(-50%);
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  
+}
+body {
+    background: url(A:/images1.jpg);
+    background-size: 100%;
+    font-family: 'vollkrin', cursive;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+text-align: center;
+border: yellowgreen;
+color: white;
+}
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.box:hover .image{
+    opacity: 0.3;
+}
