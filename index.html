@@ -4,15 +4,17 @@
     <title>
         Go-West
     </title>
-    <link rel=icon href=bike.png sizes="128x128" type="image/png">
+    <link rel="icon" href="assets/Image/logo.png" sizes="128x128" type="image/png">
     <link rel="stylesheet" type="text/css" href="assets/Css/Go-West.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
-        .mySlides {display:none;}
-        </style>
+        .mySlides {
+            display: none;
+        }
+    </style>
     <br>
     <br>
     <br>
@@ -23,7 +25,7 @@
 <body>
     <ul>
         <div class="Icon">
-            <img src="bike.png" alt="" width="75px" height="75px">
+            <img src="assets/Image/logo.png" alt="" width="75px" height="75px">
             <a>Go-West</a>
         </div>
         <li><a href="#about">About</a></li>
@@ -41,10 +43,10 @@
     </ul>
 
     <div class="w3-content w3-display-container">
-        <img class="mySlides" src="urban1.jpg" style="width:100%">
-        <img class="mySlides" src="urban3.jpg" style="width:100%">
-        <img class="mySlides" src="roaad.jpg" style="width:100%">
-        <img class="mySlides" src="roaaad.jpg" style="width:100%">
+        <img class="mySlides" src="assets/Image/ads1.jpg" style="width:100%">
+        <img class="mySlides" src="assets/Image/ads2.jpg" style="width:100%">
+        <img class="mySlides" src="assets/Image/ads3.jpg" style="width:100%">
+        <img class="mySlides" src="assets/Image/ads4.jpg" style="width:100%">
 
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -78,31 +80,7 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
-                <div class="box">
-                    <img src="Road.jpg" alt="" class="image">
-                    <a href=""></a>
-                    <h3 class="tengah">Road</h3>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="box">
-                    <img src="Mountain-bikes-1.jpg" alt="" class="image">
-                    <h3 class="tengah">Mountain</h3>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="box">
-                    <img src="urban2.jpg" alt="" class="image">
-                    <h3 class="tengah"><span>Urban</span></h3>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="box">
-                    <img src="junior.jpg" alt="" class="image">
-                    <h3 class="tengah">Junior</h3>
-                </div>
-            </div>
+            <div class="row" id="list-category"></div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
@@ -116,10 +94,22 @@
     </script>
     <script type="text/javascript">
         $(document).ready(function () {
+            let templateCategory = function (category) {
+                return `
+                <div class="col-sm-3">
+                    <div class="box">
+                        <img src="${category.image}" alt="" class="image">
+                        <h3 class="tengah">${category.name}</h3>
+                    </div>
+                </div>
+            `
+            }
+
             $.getJSON('data.json', function (data) {
                 console.log('success');
-                $.each(data.categories, function (i, cat) {
-                    console.log('${cat.name} ${cat.image}')
+                $.each(data.categories, function (i, category) {
+                    $('#list-category').
+                    append(templateCategory(category))
                 });
             });
         });
