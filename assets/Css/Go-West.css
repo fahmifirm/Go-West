@@ -1,46 +1,125 @@
-.box{
+.box {
     width: 300px;
     height: 312px;
     position: relative;
-   
+    padding: 0 4px;
+    display: grid;
 }
-.box img{
+
+.box img {
     width: 250px;
     height: 250px;
     transition: .5s ease;
     backface-visibility: hidden;
 }
-h3{
+
+h3 {
     position: absolute;
     color: white;
 }
-.tengah{
+
+.tengah {
     position: absolute;
     left: 40%;
     top: 30%;
     transform: translate(-50%);
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.8);
+    /* Black background with 0.5 opacity */
 }
+
 body {
-    background: url(A:/Go-West/images1.jpg);
+    background-color: dimgrey;
     background-size: 100%;
     font-family: 'vollkrin', cursive;
     margin: 0;
     padding: 0;
 }
+
 h1 {
-text-align: center;
-border: yellowgreen;
-color: white;
+    text-align: center;
+    border: yellowgreen;
+    color: white;
 }
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
 .image {
     opacity: 1;
+    transform: scale(1);
     display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    transition: .5s ease-in-out;
 }
-.box:hover .image{
-    opacity: 0.3;
+
+.box:hover .image {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.icon {
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+li {
+    float: right;
+    padding: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+li a:hover .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
