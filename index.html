@@ -11,8 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
-        .mySlides {display:none;}
-        </style>
+        .mySlides {
+            display: none;
+        }
+    </style>
     <br>
     <br>
     <br>
@@ -78,31 +80,7 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
-                <div class="box">
-                    <img src="Road.jpg" alt="" class="image">
-                    <a href=""></a>
-                    <h3 class="tengah">Road</h3>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="box">
-                    <img src="Mountain-bikes-1.jpg" alt="" class="image">
-                    <h3 class="tengah">Mountain</h3>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="box">
-                    <img src="urban2.jpg" alt="" class="image">
-                    <h3 class="tengah"><span>Urban</span></h3>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="box">
-                    <img src="junior.jpg" alt="" class="image">
-                    <h3 class="tengah">Junior</h3>
-                </div>
-            </div>
+            <div class="row" id="list-category"></div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
@@ -116,10 +94,22 @@
     </script>
     <script type="text/javascript">
         $(document).ready(function () {
+            let templateCategory = function (category) {
+                return `
+                <div class="col-sm-3">
+                    <div class="box">
+                        <img src="${category.image}" alt="" class="image">
+                        <h3 class="tengah">${category.name}</h3>
+                    </div>
+                </div>
+            `
+            }
+
             $.getJSON('data.json', function (data) {
                 console.log('success');
-                $.each(data.categories, function (i, cat) {
-                    console.log('${cat.name} ${cat.image}')
+                $.each(data.categories, function (i, category) {
+                    $('#list-category').
+                    append(templateCategory(category))
                 });
             });
         });

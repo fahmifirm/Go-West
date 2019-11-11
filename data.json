@@ -2,22 +2,22 @@
   "categories": [
     {
       "id": 1,
-      "image": "bg1.jpg",
+      "image": "assets/Image/road.jpg",
       "name": "Road"
     },
     {
       "id": 2,
-      "image": "bg2.jpg",
+      "image": "assets/Image/mountain.jpg",
       "name": "Mountain"
     },
     {
       "id": 3,
-      "image": "bg3.jpg",
+      "image": "assets/Image/urban.jpg",
       "name": "Urban"
     },
     {
       "id": 4,
-      "image": "bg4.jpg",
+      "image": "assets/Image/junior.jpg",
       "name": "Junior"
     }
   ]
