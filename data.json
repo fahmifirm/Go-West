@@ -20,5 +20,228 @@
       "image": "assets/Image/junior.jpg",
       "name": "Junior"
     }
-  ]
+  ],
+ "items": [{
+    "id": 11,
+    "categoryId": 1,
+    "image": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ACE_P-768x512.png",
+    "name": "HELIOS LT9X",
+    "caption": "Road performance bike built with a UCI approved ACX frame that is astonishingly responsive, smooth, and fast",
+    "price": 73000000,
+    "details": {
+      "description": "Helios LT9X merupakan sepeda road dengan frame carbon ACX yang ringan dan kuat dengan performa yang responsif serta dilengkapi dengan electronic shifting wireless. Helios LT9X merupakan sepeda road bike yang tepat untuk para antusias sepeda balap yang menginginkan sepeda road terbaik di kelasnya serta sistem kendali dan kontrol yang lebih mudah dan maksimal.",
+      "specs": [{
+        "parts": "Frame",
+        "genuineParts": "ACX PERFORMANCE ROAD, 130MM O.L.D., INTERNAL ROUTE, Di2 READY"
+      }, {
+        "parts": "Fork",
+        "genuineParts": "ACX PERFORMANCE ROAD, CARBON TAPER STEERER"
+      }, {
+        "parts": "Stem",
+        "genuineParts": "ENTITY ELITE, ALLOY WITH CARBON WRAP, 100MM (46-50)"
+      }],
+      "photos": [{
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ACE_P.png",
+        "caption": "Samping Kiri"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ACE_RR.png",
+        "caption": "Belakang"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ACE_P.png",
+        "caption": "Samping Kanan"
+      }]
+    }
+  }, {
+    "id": 12,
+    "categoryId": 1,
+    "image": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ETAP_P-768x512.png",
+    "name": "HELIOS LT9X ETAP",
+    "caption": "Road performance bike built with a UCI approved ACX frame that is astonishingly responsive, smooth, and fast",
+    "price": 70600000,
+    "details": {
+      "description": "Helios LT9X merupakan sepeda road dengan frame carbon ACX yang ringan dan kuat dengan performa yang responsif serta dilengkapi dengan electronic shifting wireless. Helios LT9X merupakan sepeda road bike yang tepat untuk para antusias sepeda balap yang menginginkan sepeda road terbaik di kelasnya serta sistem kendali dan kontrol yang lebih mudah dan maksimal.",
+      "specs": [{
+        "parts": "Frame",
+        "genuineParts": "ACX PERFORMANCE ROAD, 130MM O.L.D., INTERNAL ROUTE, Di2 READY"
+      }, {
+        "parts": "Fork",
+        "genuineParts": "ACX PERFORMANCE ROAD, CARBON TAPER STEERER"
+      }, {
+        "parts": "Shifter",
+        "genuineParts": "SRAN RED eTAP"
+      }],
+      "photos": [{
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ETAP_P.png",
+        "caption": "Samping Kiri"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ETAP_RR.png",
+        "caption": "Belakang"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ETAP_P.png",
+        "caption": "Samping Kanan"
+      }]
+    }
+  }, {
+    "id": 21,
+    "categoryId": 2,
+    "image": "https://www.polygonbikes.com/wp-content/uploads/2018/03/XQUARONE_EX9_GR_P-768x512.png",
+    "name": "XQUARONE EX9",
+    "caption": "A wide spectrum Enduro bike enabling rider to tackle various trails smoothly yet optimizing pedaling efficiency",
+    "price": 102000000,
+    "details": {
+      "description": "XQUARONE EX9 hadir untuk memberikan paradigma baru tentang pengalaman bersepeda, dimana mekanisme travel suspensi tidak lagi membatasi performa sebuah sepeda. Dirancang dengan kombinasi sempurna dengan perpaduan konstruksi frame Polygon dengan suspensi yang dirancang NAILD untuk memberikan pengalaman bersepeda yang berbeda. Dirancang dengan konstruksi rear end yang lebih pendek untuk tangguh mengatasi medan teknikal dan dapat melewati medan yang menikung dengan lebih cepat. Dilengkapi elevated chainstay menjadikan sistem suspensi NAILD R3ACT- 2Play memiliki keunikan dan karakteristik tersendiri. XQUARONE EX9 menitikberatkan pada aspek gerakan badan pengendara dan gerakan mekanika tubuh untuk dapat menghasilkan sepeda dengan kecepatan tinggi namun dengan kontrol yang optimum. XQUARONE EX9 memungkinkan untuk melewati rintangan dengan lebih cepat dan mudah, menjaga dan menstabilkan stamina pengendara (tidak mudah kelelahan) karena pedaling yang lebih efisien, serta meningkatkan kepercayaan diri pengendara. XQUARONE EX9 dirancang dengan frame berbahan full ACX Carbon, dilengkapi roda ukuran 27.5″, dengan suspensi 180mm sepeda ini mampu melewati rintangan dengan mudah.",
+      "specs": [{
+        "parts": "Frame",
+        "genuineParts": "NAILD R3ACT 2PLAY SUSPENSION ACX, 180MM TRAVEL, BOOST"
+      }, {
+        "parts": "Fork",
+        "genuineParts": "FOX FACTORY 36 FLOAT, 180MM TRAVEL, BOOST"
+      }, {
+        "parts": "Stem",
+        "genuineParts": "RACE FACE TURBINE R, ALLOY E:50MM R:0DEGREE"
+      }],
+      "photos": [{
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/XQUARONE_EX9_GR_P.png",
+        "caption": "Hijau"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/XQUARONE_EX9_RED_P.png",
+        "caption": "Merah"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/XQUARONE_EX9_BLACK.png",
+        "caption": "Hitam"
+      }]
+    }
+  }, {
+    "id": 22,
+    "categoryId": 2,
+    "image": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ETAP_P-768x512.png",
+    "name": "XQUARONE EX8",
+    "caption": "A wide spectrum Enduro bike enabling rider to tackle various trails smoothly yet optimizing pedaling efficiency",
+    "price": 82000000,
+    "details": {
+      "description": "XQUARONE EX8 hadir untuk memberikan paradigma baru tentang pengalaman bersepeda, dimana mekanisme travel suspensi tidak lagi membatasi performa sebuah sepeda. Dirancang dengan kombinasi sempurna dengan perpaduan konstruksi frame Polygon dengan suspensi yang dirancang NAILD untuk memberikan pengalaman bersepeda yang berbeda. Dirancang dengan konstruksi rear end yang lebih pendek untuk tangguh mengatasi medan teknikal dan dapat melewati medan yang menikung dengan lebih cepat. Dilengkapi elevated chainstay menjadikan sistem suspensi NAILD R3ACT- 2Play memiliki keunikan dan karakteristik tersendiri. XQUARONE EX8 menitikberatkan pada aspek gerakan badan pengendara dan gerakan mekanika tubuh untuk dapat menghasilkan sepeda dengan kecepatan tinggi namun dengan kontrol yang optimum. XQUARONE EX8 memungkinkan untuk melewati rintangan dengan lebih cepat dan mudah, menjaga dan menstabilkan stamina pengendara (tidak mudah kelelahan) karena pedaling yang lebih efisien, serta meningkatkan kepercayaan diri pengendara. XQUARONE EX8 dirancang dengan frame berbahan full ACX Carbon, dilengkapi roda ukuran 27.5″, dengan suspensi 180mm sepeda ini mampu melewati rintangan dengan mudah.",
+      "specs": [{
+        "parts": "Frame",
+        "genuineParts": "NAILD R3ACT 2PLAY SUSPENSION ACX, 180MM TRAVEL, BOOST"
+      }, {
+        "parts": "Fork",
+        "genuineParts": "FOX FACTORY 36 FLOAT, 180MM TRAVEL, BOOST"
+      }, {
+        "parts": "Shifter",
+        "genuineParts": "SRAM X01 EAGLE 12-SPEED"
+      }],
+      "photos": [{
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/2018_XQUARONE_EX8_RED_1.png",
+        "caption": "Samping Kiri"
+      }]
+    }
+  }, {
+    "id": 31,
+    "categoryId": 3,
+    "image": "https://www.polygonbikes.com/wp-content/uploads/2018/03/BEND_CT5_P_BLACK_-768x512.png",
+    "name": "BEND CT5",
+    "caption": "Provides everything the rider needs to move through the city with ease",
+    "price": 15600000,
+    "details": {
+      "description": "Polygon Bend CT adalah sepeda urban sport untuk mobilitas maksimal setiap hari. Sepeda yang cocok untuk kehidupan urban di perkotaan. Dengan geometri yang mengusung posisi bersepeda yang tegak dan nyaman dengan frame alloy ALX, hydraulic disc brakes, 1 x 11 drive train dan sistem decal unik yang dapat memantulkan dan merefleksikan cahaya saat digunakan di malam hari; untuk keamanan pengendara. Bend CT, sepeda urban sport merupakan pilihan tepat untuk berpetualang dan melibas kemacetan dengan mudah.",
+      "specs": [{
+        "parts": "Frame",
+        "genuineParts": "URBAN SPORT ALX W/ FLATMOUNT, FENDER READY"
+      }, {
+        "parts": "Fork",
+        "genuineParts": "URBAN SPORT ALX W/ E-THRU & FLATMOUNT, FENDER READY"
+      }, {
+        "parts": "Stem",
+        "genuineParts": "ENTITY XPERT"
+      }],
+      "photos": [{
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/BEND_CT5_P_BLACK_.png",
+        "caption": "Samping Kiri"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/BEND_CT5_RF_BLACK-1.png",
+        "caption": "Depan"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/03/BEND_CT5_RR_BLACK_-1.png",
+        "caption": "Belakang"
+      }]
+    }
+  }, {
+    "id": 32,
+    "categoryId": 3,
+    "image": "https://www.polygonbikes.com/wp-content/uploads/2018/06/BEND-FXNEW-768x512.png",
+    "name": "BEND FX4",
+    "caption": "Created for urban riders who are looking to commute with friends or to increase their fitness level",
+    "price": 10500000,
+    "details": {
+      "description": "Bend FX4 sepeda Urban Sport, yang didesain dengan performa terbaik untuk kecepatan dan kenyamanan di perkotaan. Menggunakan roda ukuran 700C untuk akselerasi dan pedaling yang lebih efektif. Dirancang secara khusus dengan menggunakan flatbar, membuat posisi bersepeda lebih tegak, santai dan nyaman. Dilengkapi groupset 20 speed dengan performa terbaik di kelasnya dan Hydraulic disc brakes untuk performa pengereman yang lebih baik. Didesain dengan performa road bike dengan posisi yang lebih nyaman untuk bersepeda jarak jauh dalam kota.",
+      "specs": [{
+        "parts": "Frame",
+        "genuineParts": "URBAN SPORT ALX W/ FLATMOUNT, FENDER READY"
+      }, {
+        "parts": "Fork",
+        "genuineParts": "URBAN SPORT ALX W/ E-THRU & FLATMOUNT, FENDER READY"
+      }, {
+        "parts": "Shifter",
+        "genuineParts": "SHIMANO TIAGRA SL-4700 2X10 SPEED"
+      }],
+      "photos": [{
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/06/BEND-FXNEW.png",
+        "caption": "Samping Kiri"
+      }]
+    }
+  }, {
+    "id": 41,
+    "categoryId": 4,
+    "image": "https://www.polygonbikes.com/wp-content/uploads/2018/03/HELIOS_LT9X_ACE_P-768x512.png",
+    "name": "RELIC24",
+    "caption": "Designed with geometry for smaller riders.",
+    "price": 2550000,
+    "details": {
+      "description": "Tujuan Polygon yang utama adalah menciptakan sepeda untuk semua orang, termasuk membuat sepeda yang ringan dan aman untuk rider muda. Polygon Youth didesain dengan geometri untuk ukuran rider yang lebih kecil dengan parts yang berkualitas tinggi agar sesuai digunakan untuk rider muda. Seri Polygon Youth ditujukkan untuk setiap rider muda untuk merasakan pengalaman bersepeda yang nyaman dan sepeda yang sangat menyenangkan digunakan untuk petualangan mereka!",
+      "specs": [{
+        "parts": "Frame",
+        "genuineParts": "AL6 ALLOY FRAME"
+      }, {
+        "parts": "Fork",
+        "genuineParts": "ZOOM HL SUSPENSION FORK 60MM"
+      }, {
+        "parts": "Stem",
+        "genuineParts": "STEEL HANDLE STEM"
+      }],
+      "photos": [{
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/11/RELIC_24_P.png",
+        "caption": "Samping Kiri"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/11/RELIC_24_LF.png",
+        "caption": "Depan"
+      }, {
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/11/RELIC_24_RR.png",
+        "caption": "Belakang"
+      }]
+    }
+  }, {
+    "id": 42,
+    "categoryId": 4,
+    "image": "https://www.polygonbikes.com/wp-content/uploads/2018/11/RELIC_20_S_BLUE_P-768x512.png",
+    "name": "RELIC20",
+    "caption": "Designed with geometry for smaller riders.",
+    "price": 2250000,
+    "details": {
+      "description": "Tujuan Polygon yang utama adalah menciptakan sepeda untuk semua orang, termasuk membuat sepeda yang ringan dan aman untuk rider muda. Polygon Youth didesain dengan geometri untuk ukuran rider yang lebih kecil dengan parts yang berkualitas tinggi agar sesuai digunakan untuk rider muda. Seri Polygon Youth ditujukkan untuk setiap rider muda untuk merasakan pengalaman bersepeda yang nyaman dan sepeda yang sangat menyenangkan digunakan untuk petualangan mereka!",
+      "specs": [{
+        "parts": "Frame",
+        "genuineParts": "AL6 ALLOY FRAME"
+      }, {
+        "parts": "Fork",
+        "genuineParts": "ZOOM SUSPENSION FORK 40MM"
+      }, {
+        "parts": "Shifter",
+        "genuineParts": "SHIMANO TOURNEY SLRS356RSPL"
+      }],
+      "photos": [{
+        "url": "https://www.polygonbikes.com/wp-content/uploads/2018/11/RELIC_20_S_BLUE_P.png",
+        "caption": "Samping Kiri"
+      }]
+    }
+  }]
 }
