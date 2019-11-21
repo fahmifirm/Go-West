@@ -73,40 +73,41 @@
             </ol>
         </nav>
         <h1 class="bannertitle">CART</h1>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">PRODUCT</th>
-                    <th scope="col">PRICE</th>
-                    <th scope="col">QUANTITY</th>
-                    <th scope="col">TOTAL</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row"></th>
-                    <td><img src="https://www.polygonbikes.com/wp-content/uploads/2019/11/MY19-XQUARONE-EX9-XTR.png"
-                            width="10%">
-                    </td>
-                    <!-- <td>XQUARONE-EX9-XTR</td> -->
-                    <td>IDR 93000000</td>
-                    <td>
-                        <form><input type="text" placeholder="1"></form>
-                    </td>
-                    <td>
-                        IDR 93000000
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <form>
-            <input type="text" placeholder="Coupon Code">
-            <button type="submit" class="btn btn-primary mb-2">APPLY COUPON</button>
+        <form action="https://formspree.io/xaywnvzq" method="POST">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">PRODUCT</th>
+                        <th scope="col">PRICE</th>
+                        <th scope="col">QUANTITY</th>
+                        <th scope="col">TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="https://www.polygonbikes.com/wp-content/uploads/2019/11/MY19-XQUARONE-EX9-XTR.png"
+                                width="10%">
+                        </td>
+                        <!-- <td>XQUARONE-EX9-XTR</td> -->
+                        <td>IDR 93000000</td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            IDR 93000000
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="d-flex flex-row-reverse bd-highlight">
+                <input type="hidden" name="quantity" value="1" />
+                <button type="submit"  class="btn btn-primary mb-2" value="Send">
+                    Buy
+                </button>
+            </div>
         </form>
-        <div class="d-flex flex-row-reverse bd-highlight"><button type="submit" class="btn btn-primary mb-2">UPDATE
-                CART</button>
-        </div>
         <script src="https://code.jquery.com/jquery-3.4.1.js"
             integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         </script>
