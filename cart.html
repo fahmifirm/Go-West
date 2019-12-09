@@ -4,7 +4,7 @@
     <title>
         Go-West
     </title>
-    <link rel=icon href=bike.png sizes="128x128" type="image/png">
+    <link rel=icon href=assets/Image/logo.png sizes="128x128" type="image/png">
     <link rel="stylesheet" type="text/css" href="assets/Css/Go-West.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -72,38 +72,29 @@
                 <li class="breadcrumb-item ">Cart</li>
             </ol>
         </nav>
-        <h1 class="bannertitle">CART</h1>
-        <form action="https://formspree.io/xaywnvzq" method="POST">
+        <h1 class="bannertitle item-name"></h1>
+        <form action="https://formspree.io/xdokneln" method="POST">
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col"></th>
-                        <th scope="col">PRODUCT</th>
+                        <th scope="col">NAME PRODUCT</th>
                         <th scope="col">PRICE</th>
                         <th scope="col">QUANTITY</th>
                         <th scope="col">TOTAL</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row"></th>
-                        <td><img src="https://www.polygonbikes.com/wp-content/uploads/2019/11/MY19-XQUARONE-EX9-XTR.png"
-                                width="10%">
-                        </td>
-                        <!-- <td>XQUARONE-EX9-XTR</td> -->
-                        <td>IDR 93000000</td>
-                        <td>
-                            1
-                        </td>
-                        <td>
-                            IDR 93000000
-                        </td>
-                    </tr>
+                    <td id="name-product"></td>
+                    <td id="price"></td>
+                    <td>1</td>
+                    <td id="total"></td>
                 </tbody>
             </table>
             <div class="d-flex flex-row-reverse bd-highlight">
+                <input type="hidden" name="Name Product" />
+                <input type="hidden" name="price" />
                 <input type="hidden" name="quantity" value="1" />
-                <button type="submit"  class="btn btn-primary mb-2" value="Send">
+                <button type="submit" class="btn btn-primary mb-2" value="Send">
                     Buy
                 </button>
             </div>
@@ -116,6 +107,35 @@
         </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <script type="text/javascript">
+            $.urlParam = function (name) {
+                var results = new RegExp('[\?&]' + name + '=([^&#]*)')
+                    .exec(window.location.search);
+
+                return (results !== null) ? results[1] || 0 : false;
+            }
+
+            $(document).ready(function () {
+                // Dapatkan query params category dan item terpilih
+                const selectedcategory = $.urlParam('category')
+                const selecteditem = $.urlParam('item')
+
+                $.getJSON('data.json', function (data) {
+                    // ambil data category
+                    const category = data.categories.find(category => category.id == selectedcategory)
+
+                    // ambil data item terpilih
+                    const item = data.items.find(item => item.id == selecteditem)
+                    // tancapkan di tampilan/page
+                    $('#name-product').append(item.name)
+                    $('#price').append(item.price)
+                    $('#total').append(item.price)
+                    $('.item-name').append(item.name)
+                    $('#item-action-addtochart').attr('href',
+                        `/cart.html?category${selectedcategory}=&item=${selecteditem}`)
+                });
+            });
         </script>
 </body>
 <br>
@@ -132,7 +152,7 @@
             </form>
         </div>
         <div class="col-md-3">
-            <h4 class="mt-4 mr-8 ml-4">POLYGON</h4>
+            <h4 class="mt-4 mr-8 ml-4">Go-West</h4>
             <ul>
                 <a href="">Sejarah</a><br>
                 <a href="">Dealer</a><br>

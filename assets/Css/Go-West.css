@@ -140,13 +140,13 @@ ul.breadcrumb li a:hover {
 .banner {
     position: absolute;
     left: 8%;
-    top: 25%;
+    top: 10%;
 }
 
 .bannertitle {
     position: absolute;
     left: 8%;
-    top: 35%;
+    top: 20%;
     border-bottom: 4px solid red;
     width: 5%;
 }
@@ -190,4 +190,43 @@ a {
 
 .fgr-img:hover {
     opacity: 0.5;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Six columns side by side */
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.6;
+}
+
+.active, .demo:hover {
+    opacity: 1;
+}
+
+* {
+    box-sizing: border-box;
 }
